@@ -1,0 +1,1 @@
+web: gunicorn api:app --reload --workers 2
