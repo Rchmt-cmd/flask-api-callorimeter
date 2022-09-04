@@ -10,6 +10,7 @@ executing==1.0.0
 Flask==2.2.2
 Flask-Cors==3.0.10
 fonttools==4.37.1
+gunicorn==20.1.0
 imageio==2.21.2
 importlib-metadata==4.12.0
 ipykernel==6.15.2
