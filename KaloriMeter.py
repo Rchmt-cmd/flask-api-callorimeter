@@ -68,17 +68,3 @@ class KaloriMeter:
         height = np.max(height)
         volume = area * height
         return area, height, volume
-
-    def calories(self, binary_mask):
-        w = binary_mask.shape[1]
-        h = binary_mask.shape[0]
-        area=round((w*h)/78)
-        return area
-
-
-if __name__=="main":
-    kaloriMeter = KaloriMeter()
-    segment = kaloriMeter.segment('nasi.jpg')
-    calories = kaloriMeter.calories(segment)
-    cv.imshow('segment', segment)
-    cv.waitKey(0)
