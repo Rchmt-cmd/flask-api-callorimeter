@@ -21,6 +21,7 @@
 # from PIL import Image
 # from segment import Segment
 # from base64 import encodebytes
+
 import os
 from KaloriMeter import KaloriMeter
 from flask_cors import cross_origin, CORS
